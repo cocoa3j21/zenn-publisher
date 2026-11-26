@@ -1,11 +1,11 @@
 {
   "title": "zenn prepublish privacy check",
   "target": "D:\\Workspace\\zenn-publisher\\articles\\philosophy-engine-addendum.md",
-  "checked_at_utc": "2026-11-26T12:55:49.259409+00:00",
+  "checked_at_utc": "2026-11-26T12:57:26.925411+00:00",
   "summary": {
     "total": 20,
-    "ok": 13,
-    "fail": 4,
+    "ok": 17,
+    "fail": 0,
     "warn": 3
   },
   "checks": [
@@ -30,14 +30,14 @@
     {
       "category": "内部情報",
       "item": "ローカルパス（D:/ T:/ など）",
-      "status": "FAIL",
-      "note": "検出: D:/Workspace/philosophy_engine/, D:/Workspace/Labs/philosophy_engine/, T:/spinoza_export, D:/Workspace/philosophy_engine/, T:/spinoza_export, D:/Workspace/Labs/README.md"
+      "status": "OK",
+      "note": "検出: "
     },
     {
       "category": "内部情報",
       "item": "内部運用語（Workspace/Labs/草案/手動等）",
-      "status": "FAIL",
-      "note": "検出: Workspace, Labs/, 草案, 手動, 投稿前に, results/"
+      "status": "OK",
+      "note": "検出: "
     },
     {
       "category": "内部情報",
@@ -48,8 +48,8 @@
     {
       "category": "断定表現",
       "item": "禁止断定表現の未使用",
-      "status": "FAIL",
-      "note": "検出: 物理法則の確定, 確定した"
+      "status": "OK",
+      "note": "検出: なし"
     },
     {
       "category": "文章構成",
@@ -66,8 +66,8 @@
     {
       "category": "文章構成",
       "item": "草案向け注記がないか",
-      "status": "FAIL",
-      "note": "検出: Zenn 投稿・編集は手動, 草案, 投稿前に"
+      "status": "OK",
+      "note": "検出: "
     },
     {
       "category": "文章構成",

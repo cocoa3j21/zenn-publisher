@@ -1,4 +1,4 @@
----
+﻿---
 title: "哲学エンジン：Spinoza『エチカ』の依存関係を検証する"
 emoji: "🧠"
 type: tech
@@ -10,15 +10,15 @@ topics:
 published: true
 ---
 
-# Zenn追記原稿（草案）— philosophy_engine 移設
+# Zenn追記原稿— philosophy_engine 移設
 
-このフォルダは、既存 `D:/Workspace/philosophy_engine/` を **`D:/Workspace/Labs/philosophy_engine/` へ移設**したものです。
-公開用ミラーは引き続き `T:/spinoza_export`（cocoa3j21/spinoza-ethics-engine）を維持します。
+このフォルダは、既存 `哲学エンジン/` を **`哲学エンジン/` へ移設**したものです。
+公開用ミラーは引き続き `公開ミラー（spinoza-ethics-engine）`（cocoa3j21/spinoza-ethics-engine）を維持します。
 
 ## 方針（トーンポリシー）
 
 - すべて「示唆」「玩具モデル」「解釈実験」として扱う
-- 「証明」「物理法則の確定」「確定した」などの断定表現は使わない
+- 「証明」「確定」などの断定表現は用いない
 - 各結果の直後に「その指標が何を測っていないか」を併記する
 - 復元・解析は総当たり等の玩具実装であり、実用の圧縮器と同じ土俵で比較しない
 
@@ -26,24 +26,22 @@ published: true
 
 | 項目 | 内容 | 出典 |
 |---|---|---|
-| `engine/core.py` | 概念グラフの構築・巡回ロジック（哲学的対話の玩具モデル） | Labs/philosophy_engine/engine |
-| `engine/comparative.py` | 複数哲学者の概念構造を並べた比較試行 | Labs/philosophy_engine/engine |
-| `engine/explorer.py` | 概念空間の探索・近傍走査（解釈実験） | Labs/philosophy_engine/engine |
-| `engine/benchmark_core.py` | 指標測定の基礎関数（一意率・一致率等の算出） | Labs/philosophy_engine/engine |
-| `docs/` | 設計メモ・解析メモ・未解決課題 | Labs/philosophy_engine/docs |
-| `data/` | デカルト・カント・ライプニッツ・スピノザ等の概念データ（JSON） | Labs/philosophy_engine/data |
+| `engine/core.py` | 概念グラフの構築・巡回ロジック（哲学的対話の玩具モデル） | 哲学エンジン/engine |
+| `engine/comparative.py` | 複数哲学者の概念構造を並べた比較試行 | 哲学エンジン/engine |
+| `engine/explorer.py` | 概念空間の探索・近傍走査（解釈実験） | 哲学エンジン/engine |
+| `engine/benchmark_core.py` | 指標測定の基礎関数（一意率・一致率等の算出） | 哲学エンジン/engine |
+| `docs/` | 設計メモ・解析メモ・未解決課題 | 哲学エンジン/docs |
+| `data/` | デカルト・カント・ライプニッツ・スピノザ等の概念データ（JSON） | 哲学エンジン/data |
 
 ## 関連リンク
 
-- 移設元（元プロジェクト）: `D:/Workspace/philosophy_engine/`（廃止・今後は Labs 側を正本とする）
-- 公開用ミラー: `T:/spinoza_export`（cocoa3j21/spinoza-ethics-engine、引き続き維持・同期は手動）
-- Labs 全体: `D:/Workspace/Labs/README.md`（このフォルダへのリンクあり）
+- 移設元（元プロジェクト）: `哲学エンジン/`（廃止・今後は Labs 側を正本とする）
+- 公開用ミラー: `公開ミラー（spinoza-ethics-engine）`（cocoa3j21/spinoza-ethics-engine）
+- Labs 全体: `README.md`（このフォルダへのリンクあり）
 
-## Zenn 記事への追記イメージ（草案）
+## Zenn 記事への追記イメージ
 
 > このセクションでは、哲学的概念の関係性をグラフとして表現し、巡回・比較する玩具モデルの記録を示します。あくまで「こういう数値が出た」という示唆であり、哲学体系の正当性や物理法則を主張するものではありません。
-
-※ 本原稿は草案であり、Zenn 投稿・編集は手動で行います。投稿前に `results/` の数値と照合してください。
 
 ## Buy Me a Coffee 導線（補完）
 
@@ -68,6 +66,6 @@ published: true
 |---|---|---|
 | トーン | 示唆・玩具モデル・断定回避 | OK |
 | Buy Me a Coffee | Zenn 組み込み主導線・本文 1 回まで | OK |
-| 公開前注意 | 数値出典・手動編集 | OK |
+| 公開前注意 | 数値出典 | OK |
 
-※ このチェックリストは投稿前に Zenn エディタで最終確認してください。
+
