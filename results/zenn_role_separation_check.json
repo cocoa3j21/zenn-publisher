@@ -1,0 +1,105 @@
+{
+  "title": "zenn role separation check",
+  "article": "articles/philosophy-engine-addendum.md",
+  "draft": "Labs/information_cosmos_toy/draft_uniqueness_consistency.md",
+  "checked_at_utc": "2026-11-26T23:29:40.464964+00:00",
+  "summary": {
+    "total": 14,
+    "ok": 14,
+    "fail": 0,
+    "warn": 0
+  },
+  "checks": [
+    {
+      "category": "役割分離",
+      "item": "記事から他Proj指標を除去",
+      "status": "OK",
+      "note": "検出: なし"
+    },
+    {
+      "category": "役割分離",
+      "item": "実データ側の用語が存在",
+      "status": "OK",
+      "note": "欠落: なし（4語とも存在）"
+    },
+    {
+      "category": "役割分離",
+      "item": "既存記事との差別化点が明記",
+      "status": "OK",
+      "note": "セクション存在"
+    },
+    {
+      "category": "役割分離",
+      "item": "draft 側に2指標が戻っている",
+      "status": "OK",
+      "note": "draft 存在 / 一意率=True 一致率=True"
+    },
+    {
+      "category": "プライバシー",
+      "item": "個人情報・秘密情報の非混入",
+      "status": "OK",
+      "note": "メール=0 電話=0 秘密=0"
+    },
+    {
+      "category": "内部情報",
+      "item": "ローカルパス・内部運用語の非混入",
+      "status": "OK",
+      "note": "ローカルパス=0 内部語=[]"
+    },
+    {
+      "category": "断定表現",
+      "item": "禁止断定表現の未使用",
+      "status": "OK",
+      "note": "検出: なし"
+    },
+    {
+      "category": "文章構成",
+      "item": "草案向け注記の非混入",
+      "status": "OK",
+      "note": "検出: なし"
+    },
+    {
+      "category": "導線",
+      "item": "Buy Me a Coffee 導線が1回だけ",
+      "status": "OK",
+      "note": "リンク数=1"
+    },
+    {
+      "category": "画像参照",
+      "item": "画像参照が壊れていない",
+      "status": "OK",
+      "note": "参照=1 破損=0 画像存在=True"
+    },
+    {
+      "category": "リンク",
+      "item": "URLの本数と形式",
+      "status": "OK",
+      "note": "URL数=4"
+    },
+    {
+      "category": "リンク",
+      "item": "プレースホルダの非混入",
+      "status": "OK",
+      "note": "検出: なし"
+    },
+    {
+      "category": "公開状態",
+      "item": "published が false",
+      "status": "OK",
+      "note": "published=false"
+    },
+    {
+      "category": "トーン",
+      "item": "示唆表現の存在",
+      "status": "OK",
+      "note": "検出: ['示唆', '玩具モデル', '解釈実験']"
+    }
+  ],
+  "notes": [
+    "哲学エンジン記事から一意率・一致率を除去し、境界符号化トイ側の draft に移した",
+    "既存の engine/*.py・run_*.py・server.py・data/・results/・docs/benchmark_* は未変更",
+    "すべて示唆・玩具モデル・解釈実験として扱っている",
+    "新規依存は増やしていない（標準ライブラリのみ）",
+    "published は false のまま（公開操作はユーザーが手動で実施する）"
+  ]
+}
