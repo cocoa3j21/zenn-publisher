@@ -1,0 +1,99 @@
+{
+  "title": "zenn prepublish final check",
+  "target": "D:\\Workspace\\zenn-publisher\\articles\\philosophy-engine-addendum.md",
+  "checked_at_utc": "2026-11-26T13:34:50.499111+00:00",
+  "summary": {
+    "total": 13,
+    "ok": 13,
+    "fail": 0,
+    "warn": 0
+  },
+  "checks": [
+    {
+      "category": "プライバシー",
+      "item": "本名・住所・電話番号・メールアドレス",
+      "status": "OK",
+      "note": "電話番号: 0 件 / メール: 0 件"
+    },
+    {
+      "category": "プライバシー",
+      "item": "APIキー・トークン・認証情報・秘密鍵",
+      "status": "OK",
+      "note": "検出: 0 件"
+    },
+    {
+      "category": "内部情報",
+      "item": "ローカルパス（D:/ T:/ など）",
+      "status": "OK",
+      "note": "検出: "
+    },
+    {
+      "category": "内部情報",
+      "item": "内部運用語（Workspace/Labs/草案/手動等）",
+      "status": "OK",
+      "note": "検出: "
+    },
+    {
+      "category": "断定表現",
+      "item": "禁止断定表現の未使用",
+      "status": "OK",
+      "note": "検出: なし"
+    },
+    {
+      "category": "文章構成",
+      "item": "草案向け注記がないか",
+      "status": "OK",
+      "note": "検出: "
+    },
+    {
+      "category": "公開状態",
+      "item": "published が false であること（公開はユーザーがZenn側で手動実施する）",
+      "status": "OK",
+      "note": "published: false"
+    },
+    {
+      "category": "Buy Me a Coffee導線",
+      "item": "導線が1回だけあること",
+      "status": "OK",
+      "note": "導線リンク: 1 件"
+    },
+    {
+      "category": "画像参照",
+      "item": "画像ファイルが存在し、Markdown参照パスと一致すること",
+      "status": "OK",
+      "note": "/images/philosophy-engine-concept-graph.png: 存在"
+    },
+    {
+      "category": "画像参照",
+      "item": "concept-graph.png の存在",
+      "status": "OK",
+      "note": "philosophy-engine-concept-graph.png: 存在"
+    },
+    {
+      "category": "リンク・構成",
+      "item": "プレースホルダの残存",
+      "status": "OK",
+      "note": "検出: なし"
+    },
+    {
+      "category": "リンク・構成",
+      "item": "URLの形式",
+      "status": "OK",
+      "note": "URL数: 3 / 形式不正: 0"
+    },
+    {
+      "category": "トーン・示唆表現",
+      "item": "示唆表現の存在",
+      "status": "OK",
+      "note": "検出: 示唆, 玩具モデル"
+    }
+  ],
+  "notes": [
+    "既存の Labs/philosophy_engine/ のファイルは変更していません",
+    "新しい results/ ファイルは別名で保存しました",
+    "すべて示唆・玩具モデル・解釈実験として扱っています",
+    "新規依存は増やしていません（標準ライブラリのみ）",
+    "Zenn Web UIへのログイン・投稿操作は行っていません",
+    "公開状態（published）は false のまま、公開操作はユーザーが手動で実施する"
+  ]
+}
