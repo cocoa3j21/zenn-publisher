@@ -1,0 +1,141 @@
+{
+  "title": "zenn prepublish privacy check",
+  "target": "D:\\Workspace\\zenn-publisher\\articles\\philosophy-engine-addendum.md",
+  "checked_at_utc": "2026-11-26T12:55:49.259409+00:00",
+  "summary": {
+    "total": 20,
+    "ok": 13,
+    "fail": 4,
+    "warn": 3
+  },
+  "checks": [
+    {
+      "category": "プライバシー",
+      "item": "本名・住所・電話番号・メールアドレス",
+      "status": "OK",
+      "note": "電話番号: 0 件 / メール: 0 件"
+    },
+    {
+      "category": "プライバシー",
+      "item": "APIキー・トークン・認証情報・秘密鍵",
+      "status": "OK",
+      "note": "検出: 0 件"
+    },
+    {
+      "category": "プライバシー",
+      "item": "個人を特定できる情報",
+      "status": "WARN",
+      "note": "GitHubユーザー名 'cocoa3j21' がリンクテキストに含まれる（公開情報）"
+    },
+    {
+      "category": "内部情報",
+      "item": "ローカルパス（D:/ T:/ など）",
+      "status": "FAIL",
+      "note": "検出: D:/Workspace/philosophy_engine/, D:/Workspace/Labs/philosophy_engine/, T:/spinoza_export, D:/Workspace/philosophy_engine/, T:/spinoza_export, D:/Workspace/Labs/README.md"
+    },
+    {
+      "category": "内部情報",
+      "item": "内部運用語（Workspace/Labs/草案/手動等）",
+      "status": "FAIL",
+      "note": "検出: Workspace, Labs/, 草案, 手動, 投稿前に, results/"
+    },
+    {
+      "category": "内部情報",
+      "item": "開発者向けの説明",
+      "status": "WARN",
+      "note": "トーンポリシー・公開前チェックリスト等、開発者向け記述が含まれる"
+    },
+    {
+      "category": "断定表現",
+      "item": "禁止断定表現の未使用",
+      "status": "FAIL",
+      "note": "検出: 物理法則の確定, 確定した"
+    },
+    {
+      "category": "文章構成",
+      "item": "冒頭が読者向けか（草案向け注記なし）",
+      "status": "OK",
+      "note": "冒頭に '草案' が含まれる: False"
+    },
+    {
+      "category": "文章構成",
+      "item": "見出しが適切か",
+      "status": "OK",
+      "note": "見出し数: 7"
+    },
+    {
+      "category": "文章構成",
+      "item": "草案向け注記がないか",
+      "status": "FAIL",
+      "note": "検出: Zenn 投稿・編集は手動, 草案, 投稿前に"
+    },
+    {
+      "category": "文章構成",
+      "item": "見出しの重複がないか",
+      "status": "OK",
+      "note": "重複: なし"
+    },
+    {
+      "category": "文章構成",
+      "item": "結論が断定になっていないか",
+      "status": "OK",
+      "note": "結論セクション: 0 件（断定表現なしを確認済み）"
+    },
+    {
+      "category": "リンク・導線",
+      "item": "GitHubリンク",
+      "status": "WARN",
+      "note": "GitHubリンク: 0 件（テキストのみの言及あり）"
+    },
+    {
+      "category": "リンク・導線",
+      "item": "Zennリンク",
+      "status": "OK",
+      "note": "Zennリンク: 0 件（本タスクでは未設定でOK）"
+    },
+    {
+      "category": "リンク・導線",
+      "item": "Buy Me a Coffeeリンク",
+      "status": "OK",
+      "note": "テキスト言及: あり / リンク: 0 件"
+    },
+    {
+      "category": "リンク・導線",
+      "item": "URLの形式",
+      "status": "OK",
+      "note": "URL数: 0 / 形式不正: 0"
+    },
+    {
+      "category": "リンク・導線",
+      "item": "プレースホルダの残存",
+      "status": "OK",
+      "note": "検出: なし"
+    },
+    {
+      "category": "数値・引用",
+      "item": "数値の出典",
+      "status": "OK",
+      "note": "数値: 9 件（出典表記はドラフト側に委譲）"
+    },
+    {
+      "category": "数値・引用",
+      "item": "図表との整合",
+      "status": "OK",
+      "note": "画像参照: 0 件 / 表: 13 件"
+    },
+    {
+      "category": "数値・引用",
+      "item": "引用の正確性",
+      "status": "OK",
+      "note": "Spinoza/エチカ言及: あり"
+    }
+  ],
+  "notes": [
+    "既存の Labs/philosophy_engine/ のファイルは変更していません",
+    "新しい results/ ファイルは別名で保存しました",
+    "すべて示唆・玩具モデル・解釈実験として扱っています",
+    "新規依存は増やしていません（標準ライブラリのみ）",
+    "Zenn Web UIへのログイン・投稿操作は行っていません",
+    "公開状態は変更していません"
+  ]
+}
