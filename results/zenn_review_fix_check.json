@@ -1,0 +1,73 @@
+{
+  "title": "zenn review fix check",
+  "target": "articles/philosophy-engine-addendum.md",
+  "image": "images/philosophy-engine-concept-graph.png",
+  "checked_at_utc": "2026-11-26T13:56:34.276829+00:00",
+  "summary": {
+    "total": 10,
+    "ok": 10,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "category": "画像改善",
+      "item": "concept-graph.png の存在と解像度",
+      "status": "OK",
+      "note": "存在: True, サイズ: (1200, 680), ファイルサイズ: 38933 bytes"
+    },
+    {
+      "category": "指標・図注記",
+      "item": "一意率・一致率と範囲限定の説明",
+      "status": "OK",
+      "note": "一意率=True, 一致率=True, 範囲明記=True, 図注記=True"
+    },
+    {
+      "category": "プライバシー",
+      "item": "個人情報・秘密情報の非混入",
+      "status": "OK",
+      "note": "メール=0, 電話=0, 秘密情報=0"
+    },
+    {
+      "category": "内部情報",
+      "item": "ローカルパス・内部運用語の非混入",
+      "status": "OK",
+      "note": "ローカルパス=0, 内部語=0"
+    },
+    {
+      "category": "トーン・断定表現",
+      "item": "禁止断定表現の未使用",
+      "status": "OK",
+      "note": "検出=なし"
+    },
+    {
+      "category": "トーン・断定表現",
+      "item": "示唆表現の存在",
+      "status": "OK",
+      "note": "検出=['示唆', '玩具モデル', '解釈実験']"
+    },
+    {
+      "category": "文章構成",
+      "item": "草案向け注記の非混入",
+      "status": "OK",
+      "note": "検出=0"
+    },
+    {
+      "category": "導線",
+      "item": "Buy Me a Coffee 導線が1回だけ存在",
+      "status": "OK",
+      "note": "リンク数=1"
+    },
+    {
+      "category": "リンク・画像参照",
+      "item": "画像参照の妥当性とプレースホルダ非混入",
+      "status": "OK",
+      "note": "画像参照=1, 破損=0, プレースホルダ=0"
+    },
+    {
+      "category": "公開状態",
+      "item": "published が false であること",
+      "status": "OK",
+      "note": "published=false"
+    }
+  ]
+}
