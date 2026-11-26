@@ -1,0 +1,105 @@
+{
+  "title": "zenn publication rewrite check",
+  "target": "D:\\Workspace\\zenn-publisher\\articles\\philosophy-engine-addendum.md",
+  "checked_at_utc": "2026-11-26T13:30:42.387928+00:00",
+  "summary": {
+    "total": 14,
+    "ok": 14,
+    "fail": 0,
+    "warn": 0
+  },
+  "checks": [
+    {
+      "category": "プライバシー",
+      "item": "本名・住所・電話番号・メールアドレス",
+      "status": "OK",
+      "note": "電話番号: 0 件 / メール: 0 件"
+    },
+    {
+      "category": "プライバシー",
+      "item": "APIキー・トークン・認証情報・秘密鍵",
+      "status": "OK",
+      "note": "検出: 0 件"
+    },
+    {
+      "category": "内部情報",
+      "item": "ローカルパス（D:/ T:/ など）",
+      "status": "OK",
+      "note": "検出: "
+    },
+    {
+      "category": "内部情報",
+      "item": "内部運用語（Workspace/Labs/草案/手動等）",
+      "status": "OK",
+      "note": "検出: "
+    },
+    {
+      "category": "断定表現",
+      "item": "禁止断定表現の未使用",
+      "status": "OK",
+      "note": "検出: なし"
+    },
+    {
+      "category": "文章構成",
+      "item": "草案向け注記がないか",
+      "status": "OK",
+      "note": "検出: "
+    },
+    {
+      "category": "公開状態",
+      "item": "published が false であること",
+      "status": "OK",
+      "note": "published: false"
+    },
+    {
+      "category": "Buy Me a Coffee導線",
+      "item": "導線が1回だけあること",
+      "status": "OK",
+      "note": "導線リンク: 1 件"
+    },
+    {
+      "category": "画像参照",
+      "item": "画像参照が壊れていないこと",
+      "status": "OK",
+      "note": "画像参照: 1 件 / 壊れた参照: 0 件"
+    },
+    {
+      "category": "画像参照",
+      "item": "画像ファイルの存在",
+      "status": "OK",
+      "note": "philosophy-engine-concept-graph.png: 存在"
+    },
+    {
+      "category": "リンク・構成",
+      "item": "プレースホルダの残存",
+      "status": "OK",
+      "note": "検出: なし"
+    },
+    {
+      "category": "リンク・構成",
+      "item": "URLの形式",
+      "status": "OK",
+      "note": "URL数: 3 / 形式不正: 0"
+    },
+    {
+      "category": "トーン・示唆表現",
+      "item": "示唆表現の存在",
+      "status": "OK",
+      "note": "検出: 示唆, 玩具モデル"
+    },
+    {
+      "category": "文章構成",
+      "item": "必須見出しの存在",
+      "status": "OK",
+      "note": "見出し数: 8 / 欠落: なし"
+    }
+  ],
+  "notes": [
+    "既存の Labs/philosophy_engine/ のファイルは変更していません",
+    "新しい results/ ファイルは別名で保存しました",
+    "すべて示唆・玩具モデル・解釈実験として扱っています",
+    "新規依存は増やしていません（標準ライブラリのみ）",
+    "Zenn Web UIへのログイン・投稿操作は行っていません",
+    "published は false のままです"
+  ]
+}
