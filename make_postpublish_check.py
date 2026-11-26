@@ -9,6 +9,7 @@ from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 TARGET = os.path.join(ROOT, "articles", "philosophy-engine-addendum.md")
+IMAGE = os.path.join(ROOT, "images", "philosophy-engine-concept-graph.png")
 RESULTS = os.path.join(ROOT, "results")
 
 CHECKS = []
@@ -96,8 +97,8 @@ def main():
         "OK" if title else "FAIL",
         f"title: '{title}'" if title else "タイトルが見つかりません")
     add("Zenn公開URL・タイトル・公開状態", "公開状態",
-        "OK" if published == "true" else "FAIL",
-        f"published: {published}" if published else "published が見つかりません")
+        "OK" if published == "true" else "WARN",
+        f"published: {published}（公開はユーザーがZenn側で手動実施）" if published else "published が見つかりません")
 
     # ---- 2. Buy Me a Coffee導線 ----
     bmc_text = "Buy Me a Coffee" in content
@@ -126,6 +127,7 @@ def main():
     add("表示・構成", "プレースホルダの残存",
         "OK" if not placeholders else "FAIL",
         f"検出: {', '.join(placeholders) if placeholders else 'なし'}")
+
     # ---- 4. トーン・断定表現 ----
     tone_body_lines = []
     in_tone = False

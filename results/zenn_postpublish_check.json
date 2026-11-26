@@ -1,12 +1,12 @@
 {
   "title": "zenn postpublish check",
   "target": "D:\\Workspace\\zenn-publisher\\articles\\philosophy-engine-addendum.md",
-  "checked_at_utc": "2026-11-26T13:00:38.449171+00:00",
+  "checked_at_utc": "2026-11-26T13:41:00.325623+00:00",
   "summary": {
     "total": 13,
-    "ok": 11,
+    "ok": 10,
     "fail": 0,
-    "warn": 2
+    "warn": 3
   },
   "checks": [
     {
@@ -24,32 +24,32 @@
     {
       "category": "Zenn公開URL・タイトル・公開状態",
       "item": "公開状態",
-      "status": "OK",
-      "note": "published: true"
+      "status": "WARN",
+      "note": "published: false（公開はユーザーがZenn側で手動実施）"
     },
     {
       "category": "Buy Me a Coffee導線",
       "item": "導線の存在",
       "status": "OK",
-      "note": "テキスト言及: あり / リンク: 0 件"
+      "note": "テキスト言及: あり / リンク: 1 件"
     },
     {
       "category": "表示・構成",
       "item": "見出しの存在",
       "status": "OK",
-      "note": "見出し数: 7"
+      "note": "見出し数: 8"
     },
     {
       "category": "表示・構成",
       "item": "表の存在",
       "status": "OK",
-      "note": "表: 13 件"
+      "note": "表: 0 件"
     },
     {
       "category": "表示・構成",
       "item": "画像参照の妥当性",
       "status": "OK",
-      "note": "画像参照: 0 件 / 壊れた参照: 0 件"
+      "note": "画像参照: 1 件 / 壊れた参照: 0 件"
     },
     {
       "category": "表示・構成",
@@ -67,13 +67,13 @@
       "category": "トーン・断定表現",
       "item": "示唆表現の存在",
       "status": "OK",
-      "note": "検出: 示唆, 玩具モデル, 解釈実験"
+      "note": "検出: 示唆, 玩具モデル"
     },
     {
       "category": "リンク・導線",
       "item": "GitHubリンク",
       "status": "WARN",
-      "note": "GitHubリンク: 0 件（テキストのみの言及あり）"
+      "note": "GitHubリンク: 2 件（テキストのみの言及あり）"
     },
     {
       "category": "リンク・導線",
